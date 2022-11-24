@@ -73,17 +73,15 @@ li a {
     margin-left: 4%;
     text-align: center;
 }
-.head2{
+/* .head2{
     width: 19%;
-    /* margin-right: 4%; */
     text-align: center;
 }
 .head3{
   width: 19%;
   margin-right: 4.5%;
   text-align: center;
-}
-
+} */
 .last{
   display: flex;
   justify-content: center;
@@ -91,13 +89,15 @@ li a {
   margin-right: 1%;
   background-color: rgb(238, 238, 255);
 }
-@media only screen and (max-width: 600px) {
-  div.middle {
-    display: inline;
-  }
-}
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 736px) {
   div.heading {
-    display: inline;
+    display: block;
+    text-align: center;
+    margin-left: 23%;
   }
+ div.head1{
+  margin-top: 1%;
+  margin-bottom: 1%;
+ }
 }
